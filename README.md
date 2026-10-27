@@ -5,7 +5,7 @@
 A small Django + Django REST Framework backend with a four-stage GitHub Actions pipeline
 (**Setup → Dependencies → Test → Deploy**) that deploys to Render.
 
-**Live app:** https://csc325-cicd-sinan.onrender.com/  *(update if your Render URL differs)*
+**Live app:** https://csc325-cicd-sinan.onrender.com/
 
 ## Endpoints
 
