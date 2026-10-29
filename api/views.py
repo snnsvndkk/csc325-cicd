@@ -18,7 +18,7 @@ def index(request):
 @api_view(["GET"])
 def hello(request):
     """Simple greeting endpoint."""
-    return Response({"message": "Hello from CSC325!"})
+    return Response({"message": "Hello from CSC325!", "author": "Sinan Sevindik"})
 
 
 @api_view(["GET"])
