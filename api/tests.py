@@ -19,6 +19,10 @@ class HelloTests(APITestCase):
         response = self.client.get(reverse("hello"))
         self.assertEqual(response.json()["message"], "Hello from CSC325!")
 
+    def test_hello_returns_author(self):
+        response = self.client.get(reverse("hello"))
+        self.assertEqual(response.json()["author"], "Sinan Sevindik")
+
 
 class HealthTests(APITestCase):
     def test_health_is_ok(self):
